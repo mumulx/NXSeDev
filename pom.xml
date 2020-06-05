@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mumulx</groupId>
+    <artifactId>nx_practical_training</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <NXOpen.version>1.0.0</NXOpen.version>
+    </properties>
+    <dependencies>
+        <!--NxOpen开发-->
+        <dependency>
+            <groupId>com.nx</groupId>
+            <artifactId>NXOpen</artifactId>
+            <version>${NXOpen.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.nx</groupId>
+            <artifactId>NXOpenUF</artifactId>
+            <version>${NXOpen.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.nx</groupId>
+            <artifactId>NXOpenUI</artifactId>
+            <version>${NXOpen.version}</version>
+        </dependency>
+    </dependencies>
+</project>
+
+
+        <!--<dependency>
+                    <groupId>com.nx</groupId>
+                    <artifactId>NXOpenUFRun</artifactId>
+                    <version>${NXOpen.version}</version>
+                </dependency>
+                <dependency>
+                    <groupId>com.nx</groupId>
+                    <artifactId>NXOpenUFRemote</artifactId>
+                    <version>${NXOpen.version}</version>
+                </dependency>
+                <dependency>
+                    <groupId>com.nx</groupId>
+                    <artifactId>NXOpenRun</artifactId>
+                    <version>${NXOpen.version}</version>
+                </dependency>
+                <dependency>
+                    <groupId>com.nx</groupId>
+                    <artifactId>NXOpenRemote</artifactId>
+                    <version>${NXOpen.version}</version>
+                </dependency>-->
